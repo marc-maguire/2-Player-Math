@@ -8,12 +8,15 @@
 
 #import <Foundation/Foundation.h>
 @class Player;
+#import "Question.h"
 
 @interface GameModel : NSObject
 
-@property (nonatomic, copy) NSArray *players;
+@property (nonatomic, copy) NSArray <Player *> *players;
 @property (nonatomic) NSInteger currentPlayerIndex;
+@property (nonatomic) Question *questionToAnswer;
 
 -(Player *)currentActivePlayer;
+-(NSString *)displayScores;
 
 @end

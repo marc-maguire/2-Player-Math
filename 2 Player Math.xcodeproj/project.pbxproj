@@ -15,7 +15,6 @@
 		921C3F591EC0F67100CC7133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 921C3F571EC0F67100CC7133 /* LaunchScreen.storyboard */; };
 		921C3F621EC111CC00CC7133 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C3F611EC111CC00CC7133 /* Player.m */; };
 		921C3F671EC112F000CC7133 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C3F661EC112F000CC7133 /* GameModel.m */; };
-		921C3F6A1EC11A2200CC7133 /* QuestionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C3F691EC11A2200CC7133 /* QuestionGenerator.m */; };
 		921C3F6E1EC11AB900CC7133 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C3F6D1EC11AB900CC7133 /* Question.m */; };
 		921C3F711EC11AC000CC7133 /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C3F701EC11ABF00CC7133 /* QuestionFactory.m */; };
 		921C3F761EC11ACF00CC7133 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C3F731EC11ACF00CC7133 /* AdditionQuestion.m */; };
@@ -40,8 +39,6 @@
 		921C3F611EC111CC00CC7133 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		921C3F651EC112F000CC7133 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
 		921C3F661EC112F000CC7133 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
-		921C3F681EC11A2200CC7133 /* QuestionGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionGenerator.h; sourceTree = "<group>"; };
-		921C3F691EC11A2200CC7133 /* QuestionGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionGenerator.m; sourceTree = "<group>"; };
 		921C3F6C1EC11AB900CC7133 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		921C3F6D1EC11AB900CC7133 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		921C3F6F1EC11ABF00CC7133 /* QuestionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionFactory.h; sourceTree = "<group>"; };
@@ -117,8 +114,6 @@
 				921C3F611EC111CC00CC7133 /* Player.m */,
 				921C3F651EC112F000CC7133 /* GameModel.h */,
 				921C3F661EC112F000CC7133 /* GameModel.m */,
-				921C3F681EC11A2200CC7133 /* QuestionGenerator.h */,
-				921C3F691EC11A2200CC7133 /* QuestionGenerator.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -229,7 +224,6 @@
 				921C3F621EC111CC00CC7133 /* Player.m in Sources */,
 				921C3F511EC0F67100CC7133 /* ViewController.m in Sources */,
 				921C3F671EC112F000CC7133 /* GameModel.m in Sources */,
-				921C3F6A1EC11A2200CC7133 /* QuestionGenerator.m in Sources */,
 				921C3F801EC11B2A00CC7133 /* QuestionManager.m in Sources */,
 				921C3F761EC11ACF00CC7133 /* AdditionQuestion.m in Sources */,
 				921C3F711EC11AC000CC7133 /* QuestionFactory.m in Sources */,

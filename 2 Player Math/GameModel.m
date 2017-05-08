@@ -8,6 +8,7 @@
 
 #import "GameModel.h"
 #import "Player.h"
+#import "QuestionFactory.h"
 
 @implementation GameModel
 
@@ -28,5 +29,11 @@
     
 }
 
+-(NSString *)displayScores{
+    
+    //this method checks the current players index, if true (1) returns player 2, else, player 1
+    NSString *string = [NSString stringWithFormat:@"%@: %ld",self.currentPlayerIndex ? @"Player 2" : @"Player 1", (long)self.players[self.currentPlayerIndex].currentScore];
+    return string;
+}
 
 @end
