@@ -11,7 +11,7 @@
 
 @implementation QuestionFactory
 
-+ (Question *)generateRandomQuestion {
+- (Question *)generateRandomQuestion {
     
     NSArray *questionArray = @[@"AdditionQuestion",@"SubtractionQuestion",@"DivisionQuestion",@"MultiplicationQuestion"];
     NSInteger integer = arc4random_uniform(3);
@@ -19,6 +19,7 @@
     
     
     Question *randomQuestion = [[NSClassFromString(questionString) alloc]init];
+   // NSString *question = [NSString stringWithFormat:@"%@",randomQuestion.question];
     
     return randomQuestion;
 }

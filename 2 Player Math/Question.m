@@ -35,7 +35,7 @@
 
 - (NSInteger)answer {
     
-    _endTime = [NSDate date];
+//    _endTime = [NSDate date];
     return _answer;
 }
 

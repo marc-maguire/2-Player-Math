@@ -15,8 +15,11 @@
 @property (nonatomic, copy) NSArray <Player *> *players;
 @property (nonatomic) NSInteger currentPlayerIndex;
 @property (nonatomic) Question *questionToAnswer;
+@property (nonatomic) NSInteger answerToQuestion;
 
 -(Player *)currentActivePlayer;
--(NSString *)displayScores;
+-(NSString *)displayPlayer1Score;
+-(NSString *)displayPlayer2Score;
+
 
 @end

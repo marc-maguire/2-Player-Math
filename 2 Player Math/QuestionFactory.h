@@ -12,6 +12,6 @@
 
 @interface QuestionFactory : NSObject
 
-+(Question *)generateRandomQuestion;
+-(Question *)generateRandomQuestion;
 
 @end

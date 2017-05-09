@@ -17,8 +17,11 @@
     if (self = [super init]){
         _players = @[[[Player alloc]init],[[Player alloc]init]];
         _currentPlayerIndex = 0;
+        QuestionFactory *questionFactory = [[QuestionFactory alloc]init];
+        _questionToAnswer = questionFactory.generateRandomQuestion;
+        _answerToQuestion = _questionToAnswer.answer;
+
     }
-    
     
     return self;
 }
@@ -29,11 +32,19 @@
     
 }
 
--(NSString *)displayScores{
+-(NSString *)displayPlayer1Score{
     
     //this method checks the current players index, if true (1) returns player 2, else, player 1
-    NSString *string = [NSString stringWithFormat:@"%@: %ld",self.currentPlayerIndex ? @"Player 2" : @"Player 1", (long)self.players[self.currentPlayerIndex].currentScore];
+    NSString *string = [NSString stringWithFormat:@"Player 1: %ld", (long)self.players[0].currentScore];
     return string;
 }
+
+-(NSString *)displayPlayer2Score{
+    
+    //this method checks the current players index, if true (1) returns player 2, else, player 1
+    NSString *string = [NSString stringWithFormat:@"Player 2: %ld", (long)self.players[1].currentScore];
+    return string;
+}
+
 
 @end
